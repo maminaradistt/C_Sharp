@@ -10,12 +10,9 @@ class Program
         } 
         for (int i = 2; i * i <= n; i++)
         {
-            if (n != 2)  // адже 2 % 2 == 0, але 2 просте число
+            if (n % i == 0)
             {
-                if (n % i == 0)
-                {
-                    return false;
-                }
+                return false;
             }
         }
         return true;

@@ -53,7 +53,7 @@ class Program
         }
         if (Car1.MaxSpeed < Car2.MaxSpeed)
         {
-            Console.WriteLine($"Max speed of car called {Car2.Name} is {Car2.MaxSpeed - Car1.MaxSpeed} kilometers per hour higherher");
+            Console.WriteLine($"Max speed of car called {Car2.Name} is {Car2.MaxSpeed - Car1.MaxSpeed} kilometers per hour higher");
         }
     }
 }
